@@ -22,7 +22,7 @@ namespace WebPersonal.NewFolder
             //Codigo para leer de la base de datos
             return id switch
             {
-                1 => "AdrianFrias",
+                1 => "Adrian",
                 2 => "Curso",
                  _=> throw new NotSupportedException("el id no es valido")
             };
